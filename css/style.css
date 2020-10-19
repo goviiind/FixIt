@@ -1,0 +1,432 @@
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,body{
+	overflow-x: hidden;
+	font-size: 62.5%;
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+
+
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Roboto', sans-serif;
+}
+p{
+	 font-family: 'Rubik', sans-serif;
+}
+
+
+.navbar{
+	
+	
+	box-shadow:0 0 2rem black;
+	
+}
+
+.admin{
+	color: white!important;
+}
+
+.navbar-brand{
+  font-family: 'Viga', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  margin-left: 5rem;
+}
+
+.nav-item{
+	padding: 0 2rem;
+
+}
+.navbar-nav{
+	margin-right: 5rem;
+}
+
+.nav-link{
+	font-size: 1.5rem;
+
+}
+
+
+
+
+.heading{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(../images/header.jpg);
+	background-size:100% 100%;
+
+	height: 100vh;
+	width: 100vw;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.header h2{
+	color: white;
+	font-size: 5rem;
+}
+.header h1{
+	color: white;
+	font-size: 10rem;
+}
+.header p{
+	color: white;
+	font-size: 3rem;
+}
+
+.header button{
+	
+	margin-top: 2rem;
+	font-size: 2rem;
+}
+.header .btn{
+	height: 5rem;
+	width: 20rem;
+}
+
+
+
+.plumber-services{
+	
+	text-align: center;
+}
+
+.plumber-services h3{
+	margin-top:10rem ;
+	margin-bottom: 1rem ;
+	font-size: 3rem;
+}
+.plumber-services  hr{
+	align-items: center;
+	margin: 0  auto;
+	width: 20%;
+	border: .1rem solid black;
+}
+.plum-services{
+	box-shadow: 0 .6rem .8rem rgba(0,0,0,0.2), 0 .6rem 2rem 0 rgba(0,0,0,0.19);
+}
+
+.plumber-services p{
+	margin-top: 2rem;
+	text-align: center;
+	font-size: 2rem;
+}
+.row{
+	margin-top: 5rem;	
+}
+.plumber-services button{
+	margin: 2rem 0;
+	font-size: 2rem;
+}
+.plumber-services .btn{
+
+	height: 5rem;
+	width: 20rem;
+}
+
+
+
+.m-modal input,textarea{
+	
+	border: none;
+	border-bottom: 1px solid black;
+	text-decoration: none;
+	outline: none;
+	background:none;
+	width: 30rem;
+	margin: 1rem 0;
+	color: black;
+	font-size: 1.5rem;
+	padding:.5rem 0;
+	
+}
+.modal-body{
+	 display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+.modal button{
+	display: block;
+	text-align: center;
+	margin-top: 2rem;
+
+}
+
+.process{
+
+	margin: 10rem 0	 0;
+	height: 60rem;
+	background-color: #f9f9f9	;
+  text-align: center;
+}
+.process hr{
+	align-items: center;
+	margin: 0  auto;
+	width: 7%;
+	border: .1rem solid black;
+}
+
+
+h4{
+	padding: 5rem 0 0;
+  font-size: 3rem;
+}
+
+h5{
+	font-size: 2rem;
+}
+.process p{
+  font-size: 2rem;
+  line-height: 2;
+  width: 60%;
+  margin: 0 auto;
+
+}
+.icon{
+	font-size: 8rem;
+	margin-bottom: 2rem;
+}
+.para{
+	margin-bottom:10rem!important;
+}
+
+
+.abt-header h3{
+	font-size: 4rem;
+	text-align: center;
+	color: white;
+	
+
+}
+.abt-heading{
+		margin-bottom: 4rem;
+}
+
+
+.abt-header{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/about.jpg);
+	background-size: 100% 100%;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	
+	
+}
+.abt-header hr{
+	width: 10rem	;
+	border: .1rem solid #fff;
+	margin: 0 auto;
+
+}
+.about p{
+
+	margin: 0  auto;
+	padding: 5rem 0 auto;
+	color: white;
+	font-size: 2rem;
+	text-align: center;
+	width: 70%;
+	line-height: 2;
+	letter-spacing: .2rem;
+}
+
+
+.vision{
+	padding: 10rem 0;
+	
+
+}
+
+.abt{
+	text-align: center;
+	
+}
+.abt h3{
+	font-size: 3rem;
+	
+	
+	
+}
+.abt p{
+
+	
+	
+	font-size: 2rem;
+	margin: 0 auto;
+	width: 70%;
+	line-height: 2;
+	letter-spacing: .2rem;
+}
+
+
+
+.vis-img{
+	transform: rotate(5deg);
+	box-shadow: 0 .6rem .9rem rgba(0,0,0,0.2), 0 .6rem .9rem 0 rgba(0,0,0,0.19);
+}
+.val-img{
+	transform: rotate(-5deg);
+	box-shadow: 0 .6rem .9rem rgba(0,0,0,0), 0 .6rem .9rem 0 rgba(0,0,0,0.19);
+}
+.vis-img:hover{
+	transform: rotate(0deg);
+}
+.val-img:hover{
+	transform: rotate(0deg);
+}
+ hr{
+ 	border: none;
+ 	margin: 0 auto;
+	width: 10rem;
+	border-bottom: 1rem dotted #000;
+}
+
+.con-header{
+	background-image: linear-gradient(rgba(34, 167, 240, 0.8),rgba(34, 167, 240, 0.8)),url(../images/globe.jpg);
+	background-size: cover;
+	height: 80rem;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.con-heading{
+	text-align: center;
+}
+.con-heading h3{
+	color: white;
+	font-size: 5rem;
+}
+
+.con-heading p{
+	font-size: 2rem;
+	letter-spacing: .2rem;
+	color: white;
+
+}
+.con-form input,textarea{
+	outline: none;
+	overflow: hidden;
+	text-decoration: none;
+	border: none;
+	border-bottom: 1px solid black;
+	background:none;
+	width: 40rem;
+	margin: 3rem 0;
+	color: white;
+	font-size: 1.8rem;
+}
+.con-form button{
+	width: 8rem;
+	height: 3rem;
+	margin-left: 16rem;
+}
+.con-form ::placeholder{
+	color: white;
+	opacity: 0.8;
+}
+
+.footer{
+	background-color: #393b44;
+	height: 50rem;
+	width:100vw;
+	text-align: center;
+	padding: 10rem 0;
+}
+.footer p{
+	padding-bottom: 5rem;
+	color: white;
+	font-size: 3rem;
+	font-weight: 900;
+	letter-spacing: 1;
+
+}
+.footer .fab{
+	color: white;
+	font-size: 5rem;
+	letter-spacing: 3rem;
+}
+
+.footer .fab:hover{
+	color: orange;
+}
+ 
+ .hm{
+ 	font-size: 5rem;
+ 	color: white;
+ 	margin-left: 60rem;
+ 	margin-top: 8rem;
+
+ }
+
+
+@media (max-width: 768px){
+	html{
+		font-size: 55%;
+	}
+	.footer{
+		margin: 0;
+	}
+	.vis-img{
+		transform: none;
+		width: 40rem;
+	box-shadow: 0 .6rem .9rem rgba(0,0,0,0.2), 0 .6rem .9rem 0 rgba(0,0,0,0.19);
+}
+.val-img{
+	width: 40rem;
+	transform: none;
+	box-shadow: 0 .6rem .9rem rgba(0,0,0,0.2), 0 .6rem .9rem 0 rgba(0,0,0,0.19);
+}
+
+.heading{
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+	
+}
+@media (max-width: 480px){
+	html{
+		font-size: 45%;
+	}
+
+	
+	.process{
+		background-color: white;
+	}
+	.vis-img{
+		transform: none;
+	
+	box-shadow: 0 .6rem .9rem rgba(0,0,0,0.2), 0 .6rem .9rem 0 rgba(0,0,0,0.19);
+}
+.val-img{
+	transform: none;
+	box-shadow: 0 .6rem .9rem rgba(0,0,0,0.2), 0 .6rem .9rem 0 rgba(0,0,0,0.19);
+}
+.abt-header{
+	margin-top: 60rem;
+}
+
+.heading{
+	background-repeat: no-repeat;
+}	
+}
