@@ -1,3 +1,11 @@
+#FixIt Admin Panel
+
+![Screenshot (26)](https://user-images.githubusercontent.com/65660930/96508990-0b02ae80-1279-11eb-8bd4-691947706e7f.png)
+![Screenshot (27)](https://user-images.githubusercontent.com/65660930/96509009-10f88f80-1279-11eb-9024-931c12e83d7b.png)
+
+
+
+
 # FixIt
 
 ![Screenshot (1)](https://user-images.githubusercontent.com/65660930/96508812-c840d680-1278-11eb-9897-258362addaad.png)
@@ -10,10 +18,7 @@
 ![Screenshot (23)](https://user-images.githubusercontent.com/65660930/96508964-00481980-1279-11eb-92c2-ae71d2300156.png)
 ![Screenshot (24)](https://user-images.githubusercontent.com/65660930/96508983-063dfa80-1279-11eb-8191-79b09a4c185f.png)
 
-#FixIt Admin Panel
 
-![Screenshot (26)](https://user-images.githubusercontent.com/65660930/96508990-0b02ae80-1279-11eb-8bd4-691947706e7f.png)
-![Screenshot (27)](https://user-images.githubusercontent.com/65660930/96509009-10f88f80-1279-11eb-9024-931c12e83d7b.png)
 
 
 
